@@ -63,7 +63,7 @@ C:\mount\                      <- mounted boot.wim contents
 Dism /Unmount-Image /MountDir:C:\mount /Commit
 ```
 
-7. **Mount the boot image** to index 2 - Windows PE (Preinstallation Environment)
+7. **Mount the boot image** to index 1 - Windows PE (Preinstallation Environment)
 
 ```bat
 Dism /Mount-Image /ImageFile:<USB DRIVE LETTER>:\sources\boot.wim /Index:1 /MountDir:C:\mount
