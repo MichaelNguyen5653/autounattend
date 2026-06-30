@@ -20,12 +20,11 @@ All install on default settings.
 ## Steps to setup USB
 
 1. Launch **Deployment and Imaging Tools Environment as Administrator** and create the mount directory:
+   <img src="public/launch-deployment.png" alt="Screenshot of Dell BIOS and how to navigate" width="600">
 
 ```bat
 mkdir C:\mount
 ```
-
-<img src="public/launch-deployment.png" alt="Screenshot of Dell BIOS and how to navigate" width="600">
 
 2. **Mount the boot image** to index 2 - Windows Setup(replace `<USB DRIVE LETTER>` with your USB's drive letter, e.g. `E`):
 
