@@ -8,7 +8,7 @@ Automates Windows 11 setup from boot through to OOBE. It wipes the internal disk
 - **Windows ADK** – [https://go.microsoft.com/fwlink/?linkid=2289980](https://go.microsoft.com/fwlink/?linkid=2289980)
 - **Windows PE add-on for the ADK** – [https://go.microsoft.com/fwlink/?linkid=2289980](https://go.microsoft.com/fwlink/?linkid=2289980)
 - **Windows 11 ISO** (latest) – [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
-- **Bootable USB stick** created with **Rufus**
+- **Bootable USB stick** created with **Rufus** - Download via MS Store
 
 All install on default settings.
 
