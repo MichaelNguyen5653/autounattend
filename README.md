@@ -63,20 +63,6 @@ C:\mount\                      <- mounted boot.wim contents
 Dism /Unmount-Image /MountDir:C:\mount /Commit
 ```
 
-7. **Mount the boot image** to index 1 - Windows PE (Preinstallation Environment)
-
-```bat
-Dism /Mount-Image /ImageFile:<USB DRIVE LETTER>:\sources\boot.wim /Index:1 /MountDir:C:\mount
-```
-
-```bat
-for %i in ("WinPE-WMI.cab" "WinPE-NetFx.cab" "WinPE-Scripting.cab" "WinPE-PowerShell.cab" "WinPE-StorageWMI.cab" "WinPE-EnhancedStorage.cab" "WinPE-FMAPI.cab" "WinPE-PmemCmdlets.cab") do Dism /Image:"C:\mount" /Add-Package /PackagePath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\%~i"
-```
-
-```bat
-Dism /Unmount-Image /MountDir:C:\mount /Commit
-```
-
 ## Limitations
 
 - **Single-disk laptops only.** For desktops or machines with multiple disks, edit `wipe.ps1` and `autounattend.xml` so they detect and wipe/install to the correct disk.
